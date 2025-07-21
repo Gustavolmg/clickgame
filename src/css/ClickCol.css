@@ -1,0 +1,54 @@
+:root {
+  --cursor-custom-hover: pointer;
+  --cursor-custom-click: pointer;
+}
+.clickImg {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+
+  width: 20%;
+  transition: all 0.05s;
+}
+.clickImg:hover {
+  cursor: var(--cursor-custom-hover);
+}
+.clickImg:active {
+  cursor: var(--cursor-custom-click);
+  left: 9%;
+  width: 22%;
+}
+
+.heartIndicator {
+  position: absolute;
+  top: 15%;
+  left: 13%;
+
+  text-shadow: #fc0 1px 0 10px;
+  text-decoration-thickness: 50px;
+}
+.heartIndicatorpersecond {
+  position: absolute;
+  top: 19%;
+  left: 13%;
+
+  text-shadow: #fc0 1px 0 10px;
+  text-decoration-thickness: 50px;
+}
+
+.storeItems {
+  position: absolute;
+  top: 15%;
+  left: 31%;
+
+  width: 30%;
+  height: 70%;
+}
+
+.storeItemsLines {
+  li {
+    list-style-type: none;
+    padding-top: 7%;
+    text-shadow: #fc0 1px 0 10px;
+  }
+}

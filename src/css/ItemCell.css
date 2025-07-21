@@ -1,0 +1,95 @@
+.buttonCell {
+  display: flex;
+  position: relative;
+
+  height: 80px;
+  max-height: 80px;
+  border-radius: 0%;
+  padding: 0px;
+  width: 100%;
+
+  pointer-events: all;
+  background-image: repeating-radial-gradient(cyan, rgb(136, 243, 241));
+  /* background-image: url("./wallpaperStoreItem.jpg"); */
+  color: crimson;
+  font-weight: bold;
+  align-items: center;
+}
+.buttonCell::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+}
+.buttonCell:hover {
+  background-image: repeating-radial-gradient(rgb(114, 250, 162), #adf802);
+  cursor: var(--cursor-custom-hover);
+}
+.buttonCell:active {
+  cursor: var(--cursor-custom-click);
+}
+.buttonCell.sold {
+  background-image: repeating-radial-gradient(rgb(209, 250, 114), yellow);
+  cursor: var(--cursor-custom-hover);
+}
+
+.itemImage {
+  height: 10vh;
+}
+.itemSimbol {
+  max-height: 3vh;
+  max-width: 3vh;
+}
+.itemInfo {
+  text-align: left;
+  margin-left: 5%;
+}
+.itemName {
+  color: crimson;
+  font-size: 16px;
+}
+.itemPrice {
+  color: green;
+  font-size: 15px;
+}
+.itemLevel {
+  font-size: 25px;
+}
+.itemStatus {
+  text-align: center;
+}
+
+.f-10 {
+  flex: 100%;
+}
+.f-9 {
+  flex: 90%;
+}
+.f-8 {
+  flex: 80%;
+}
+.f-7 {
+  flex: 70%;
+}
+.f-6 {
+  flex: 60%;
+}
+.f-5 {
+  flex: 50%;
+}
+.f-4 {
+  flex: 40%;
+}
+.f-3 {
+  flex: 30%;
+}
+.f-2 {
+  flex: 20%;
+}
+.f-1 {
+  flex: 10%;
+}

@@ -1,0 +1,25 @@
+.tooltip {
+  width: 400px;
+  background-color: #fff;
+
+  color: chocolate;
+  text-align: center;
+  padding: 5px 0;
+  border: 1px solid brown;
+  border-radius: 6px;
+  pointer-events: none;
+
+  position: absolute;
+}
+
+.tooltiptext-group {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  padding: 1%;
+}
+.half-border {
+  border-bottom: 3px solid brown;
+  border-image: linear-gradient(to right, transparent, brown, transparent) 1;
+  margin: 1%;
+}

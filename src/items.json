@@ -1,0 +1,217 @@
+{
+  "itemStore": {
+    "0": {
+      "name": "chocolate de baixa Renda",
+      "img": "storeImg1",
+      "level": 0,
+      "price": 50,
+      "production": 1,
+      "productionModifier": 1,
+      "description": "Chocolate de baixa renda, ideal para pobres."
+    },
+    "1": {
+      "name": "Homen aranha de pelucia",
+      "img": "storeImg2",
+      "level": 0,
+      "price": 400,
+      "production": 5,
+      "productionModifier": 1,
+      "description": "Uma pelúcia simpática do Homem-Aranha, um herói que salva corações em miniatura."
+    },
+    "2": {
+      "name": "coxinha de pizza",
+      "img": "storeImg3",
+      "level": 0,
+      "price": 3500,
+      "production": 20,
+      "productionModifier": 1,
+      "description": "Um mistério gastronômico que muitos se recusam a acreditar, mas que, de alguma forma, continua conquistando corações."
+    },
+    "3": {
+      "name": "Rosa de papel",
+      "img": "storeImg4",
+      "level": 0,
+      "price": 28000,
+      "production": 80,
+      "productionModifier": 1,
+      "description": "Rosa Fake, porque as de verdade são caras."
+    },
+    "4": {
+      "name": "Flor",
+      "img": "storeImg7",
+      "level": 0,
+      "price": 225000,
+      "production": 300,
+      "productionModifier": 1,
+      "description": "Flor é uma cadelinha fofa e amorosa que conquista corações com seu carinho incondicional."
+    },
+    "5": {
+      "name": "Cupido",
+      "img": "storeImg6",
+      "level": 0,
+      "price": 1800000,
+      "production": 1500,
+      "productionModifier": 1,
+      "description": "Com sua flecha precisa, Cupido nunca erra o alvo quando se trata de amor."
+    },
+    "6": {
+      "name": "fabrica de amor",
+      "img": "storeImg5",
+      "level": 0,
+      "price": 14400000,
+      "production": 6000,
+      "productionModifier": 1,
+      "description": "Uma fábrica onde o amor nunca para de ser produzido, 24 horas por dia."
+    },
+    "7": {
+      "name": "Poção do Amor",
+      "img": "storeImg8",
+      "level": 0,
+      "price": 115200000,
+      "production": 25000,
+      "productionModifier": 1,
+      "description": "Uma poção poderosa que faz qualquer um se apaixonar perdidamente ao primeiro gole."
+    }
+  },
+  "itemUpgrades": {
+    "0": {
+      "sold": false,
+      "name": "Mouse Rosa",
+      "img": "mouse/Simple",
+      "price": 250,
+      "requirement": "click",
+      "effect": 2,
+      "effectTo": "click",
+      "description": "Adicionamos um mouse rosa deixando-o mais fofo e gerando o dobro de corações no click"
+    },
+    "1": {
+      "sold": false,
+      "name": "36k de Dpi",
+      "img": "upgradeImg01",
+      "price": 6000,
+      "requirement": 2,
+      "requirementLevel": 1,
+      "effect": 4,
+      "effectTo": "click",
+      "description": "Aumenta o Dpi e gera o dobro de corações no click"
+    },
+    "10": {
+      "sold": false,
+      "name": "Gotas de Cacau verdadeiro",
+      "img": "upgradeImg1",
+      "price": 1500,
+      "requirement": 0,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 0,
+      "description": "Agora com 3% de cacau, o Chocolate de baixa renda Gera o dobro de amor"
+    },
+    "20": {
+      "sold": false,
+      "name": "Articulações mecanicas",
+      "img": "upgradeImg2",
+      "price": 2917,
+      "requirement": 1,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 1,
+      "description": "Quando somente pano e almofada não são o suficiente, adicionamos um pedaço de metal e dobramos seu preço"
+    },
+    "30": {
+      "sold": false,
+      "name": "Ketchup e Maionese",
+      "img": "upgradeImg3",
+      "price": 15456,
+      "requirement": 2,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 2,
+      "description": "Pra deixar Ainda mais saborosa ,e gera o dobro de corações."
+    },
+    "40": {
+      "sold": false,
+      "name": "Perfume de Rosa",
+      "img": "upgradeImg4",
+      "price": 114570,
+      "requirement": 3,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 3,
+      "description": "Um perfume suave foi adicionado à rosa de papel, aumentando o valor sentimental e dobrando a produção de amor."
+    },
+    "50": {
+      "sold": false,
+      "name": "Coleira de Luxo para Flor",
+      "img": "upgradeImg7",
+      "price": 911548,
+      "requirement": 4,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 4,
+      "description": "Com uma coleira de luxo, Flor agora passeia com ainda mais estilo, conquistando corações em dobro."
+    },
+    "60": {
+      "sold": false,
+      "name": "Flechas aprimoradas",
+      "img": "upgradeImg6",
+      "price": 7283298,
+      "requirement": 5,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 5,
+      "description": "As flechas de Cupido agora são mais precisas, atingindo mais corações e dobrando sua produção de amor."
+    },
+    "70": {
+      "sold": false,
+      "name": "Máquinas Modernas",
+      "img": "upgradeImg5",
+      "price": 58257328,
+      "requirement": 6,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 6,
+      "description": "Com novas máquinas mais eficientes, a Fábrica de Amor agora produz o dobro de amor!"
+    },
+    "80": {
+      "sold": false,
+      "name": "Amor Engarrafado Premium",
+      "img": "upgradeImg8",
+      "price": 466049544,
+      "requirement": 7,
+      "requirementLevel": 10,
+      "effect": 2,
+      "effectTo": 7,
+      "description": "A poção do amor agora é engarrafada com mais carinho, dobrando sua produção de amor."
+    }
+  },
+  "Rewards": {
+    "0": {
+      "sold": false,
+      "name": "Cartinha de amor",
+      "img": "rewardImg1",
+      "price": 2000,
+      "description": "Receba uma mensagem carinhosa que expressa todo o amor que sinto por você."
+    },
+    "1": {
+      "sold": false,
+      "name": "Música que me lembram você",
+      "img": "rewardImg2",
+      "price": 15000,
+      "description": "Uma seleção de músicas que sempre me fazem pensar em você e no nosso amor"
+    },
+    "2": {
+      "sold": false,
+      "name": "Nossas fotos",
+      "img": "rewardImg4",
+      "price": 7350000,
+      "description": "Desbloqueie fotos especiais que celebram nosso momento mais precioso juntos"
+    },
+    "3": {
+      "sold": false,
+      "name": "Supresa",
+      "img": "rewardImg5",
+      "price": 10000000,
+      "description": "Algo inesperado e muito especial! Clique para descobrir"
+    }
+  }
+}

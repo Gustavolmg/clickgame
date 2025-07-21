@@ -1,0 +1,22 @@
+
+Itens Loja{
+    chocolate de baixa Renda:"A primeira forma de demonstrar amor sendo pobre",
+    Coxinha de Pizza:"",
+    Rosa de papel:"Rosa Fake, porque as de verdade são caras"
+}
+
+
+json{
+    "1" => {
+        img: url,
+        name: "cho",
+        nivel: 0,
+        precoBase: 100,
+        gerarCoraçaobase = 1/s,
+    }
+}
+
+
+gerarcoraçaototal = gerarCoraçaobase * (1.3 * level)
+
+ M = C ( 1+i)t
